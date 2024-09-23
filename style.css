@@ -4,10 +4,30 @@ header {
   gap: 30px;
 }
 
+footer {
+  display: flex;
+  padding: 30px;
+  border: 1px solid red;
+  background:  hsla(213, 69%, 68%, 0.5);
+}
 
-img {
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  justify-content: space-evenly;
+  
+}
+
+
+header img {
   max-height: 450px;
-  border-radius: 5px;
+  border-radius: 8px;
+}
+
+footer img {
+  max-height: 550px;
+  border-radius: 8px;
 }
 
 svg {
@@ -16,11 +36,21 @@ svg {
   height: 34px;
 }
 
-.social-media-icons {
+.about-me .social-media-icons {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 20px; 
+}
+
+.contact-info-container .social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid red;
+}
+.footer-icons {
+  display: flex;
+  gap: 8px;
 }
 
 
