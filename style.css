@@ -6,6 +6,25 @@ header {
 
 
 img {
-  max-height: 500px;
+  max-height: 450px;
   border-radius: 5px;
 }
+
+svg {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px; 
+}
+
+
+
+
+
+
