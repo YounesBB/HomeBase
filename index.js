@@ -1,5 +1,12 @@
 const Projects = [
   {
+    title: "OpenEmojiPlatform",
+    description: "OpenEmojiPlatform app is based on the Emojipedia website which is established by Zedge AS",
+    image_src: "https://via.placeholder.com/300x200",
+    image_alt: "OpenEmojiPlatform",
+    github: "https://github.com/ITP2-G15/OpenEmojiPlatform",
+  },
+  {
     title: "Pageturner",
     description: "Created a rating website similar to imdb.com, but specifically for books.",
     image_src: "https://via.placeholder.com/300x200",
