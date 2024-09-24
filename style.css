@@ -156,6 +156,17 @@ svg:hover {
   font-weight: bold;
 }
 
+/* Ensure images maintain their aspect ratio:*/
+.projectCard img {
+  max-height: 480px; 
+  max-width: 100%; 
+  width: auto; 
+  height: auto;
+  object-fit: contain; 
+  margin: 0 auto; 
+}
+
+
 /* mobile */
 @media (max-width: 600px) {
   header picture {
