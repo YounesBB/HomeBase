@@ -1,7 +1,7 @@
 const Projects = [
   {
     title: "OpenEmojiPlatform",
-    description: 'An Android emoji app developed with Kotlin for <a href="https://www.zedge.net/" target="_blank"style="text-decoration:none;">Zedge AS</a>.',
+    description: 'An Android emoji app developed with Kotlin for <a href="https://www.zedge.net/" target="_blank"style="text-decoration:none;">Zedge AS</a>. The codebase is not available due to an NDA with the client.',
     image_src: "./images/OpenEmojiPlatform_Demo.gif",
     image_alt: "OpenEmojiPlatform",
     github: "https://github.com/ITP2-G15/OpenEmojiPlatform",
