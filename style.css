@@ -16,6 +16,15 @@ body {
   margin: 0;
 }
 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
 input,
 button,
 textarea,
@@ -25,6 +34,10 @@ select {
 
 h1 {
   margin-bottom: 15px; 
+}
+
+header h1 {
+  font-size: 3em;
 }
 
 p,
@@ -87,12 +100,12 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 10px;
   
 }
 
 
 header img {
-  max-height: 450px;
   border-radius: 8px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -112,6 +125,13 @@ svg {
 
 svg:hover {
   transform: scale(1.3);
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
 
 .about-me .social-media-icons {
@@ -175,13 +195,14 @@ svg:hover {
 @media (max-width: 600px) {
   header picture {
     padding: 1rem;
+    justify-content: center;
   }
 
   header h1 {
     position: absolute;
     top: 7%;
     left: 15%;
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   header {
@@ -199,7 +220,7 @@ svg:hover {
   }
 
   #infront-korean-temple {
-    padding: 0;
+    padding: 10px;
     display: block;
     margin: auto;
     justify-content: center;
