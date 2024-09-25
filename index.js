@@ -1,21 +1,21 @@
 const Projects = [
   {
     title: "OpenEmojiPlatform",
-    description: "OpenEmojiPlatform app is based on the Emojipedia website which is established by Zedge AS",
+    description: 'An Android emoji app developed with Kotlin for <a href="https://www.zedge.net/" target="_blank"style="text-decoration:none;">Zedge AS</a>.',
     image_src: "./images/OpenEmojiPlatform_Demo.gif",
     image_alt: "OpenEmojiPlatform",
     github: "https://github.com/ITP2-G15/OpenEmojiPlatform",
   },
   {
     title: "Pageturner",
-    description: "Created a rating website similar to imdb.com, but specifically for books.",
+    description: "Developed a book rating website, similar to IMDb, specifically designed for book enthusiasts. Built using the MERN stack.",
     image_src: "./images/Pageturner_Demo.gif",
     image_alt: "Pageturner",
     github: "https://github.com/YounesBB/Pageturner",
   },
   {
     title: "Storage Rental",
-    description: "This app can be used for managing units in a unit storage house.",
+    description: "A Java-based desktop application designed for managing storage units in a facility.",
     image_src: "./images/Storage_Rental_Demo.gif",
     image_alt: "Storage rental",
     github: "https://github.com/YounesBB/Storage_Rental",
@@ -47,7 +47,7 @@ const createProjectCard = (project) => {
   projectImage.alt = project.image_alt;
 
   const projectDescription = document.createElement("p");
-  projectDescription.textContent = project.description;
+  projectDescription.innerHTML = project.description;
 
   const svgWrapper = document.createElement("a");
   svgWrapper.href = project.github;
