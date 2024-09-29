@@ -20,6 +20,13 @@ const Projects = [
     image_alt: "Storage rental",
     github: "https://github.com/YounesBB/Storage_Rental",
   },
+  {
+    title: "Homebase",
+    description: "Homepage showcasing some of my projects.",
+    image_src: "./images/Homepage.png",
+    image_alt: "Homebase",
+    github: "https://github.com/YounesBB/HomeBase",
+  },
 ];
 
 // Helper function to create SVG element
