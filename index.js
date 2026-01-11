@@ -1,5 +1,12 @@
 const Projects = [
   {
+    title: "Kassalapp RAG Assistant",
+    description: 'AI-powered Norwegian grocery shopping assistant using RAG (Retrieval-Augmented Generation) with Pinecone Cloud, Groq (Llama 3.3), and the <a href="https://kassal.app/api/" target="_blank" style="text-decoration:none;">Kassalapp API</a>. Combines static knowledge with real-time market data for intelligent shopping assistance.',
+    image_src: "./images/kassalapp_rag_chat_interface.jpg",
+    image_alt: "Kassalapp RAG Assistant",
+    github: "hhttps://github.com/YounesBB/kassalapp-rag",
+  },
+  {
     title: "OpenEmojiPlatform",
     description: 'An Android emoji app developed with Kotlin for <a href="https://www.zedge.net/" target="_blank"style="text-decoration:none;">Zedge AS</a>. The codebase is not available due to an NDA with the client.',
     image_src: "./images/OpenEmojiPlatform_Demo.gif",
