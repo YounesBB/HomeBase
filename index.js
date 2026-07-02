@@ -1,5 +1,12 @@
 const Projects = [
   {
+    title: "Multilingual-regional QA RAG AI",
+    description: 'AI question-answering system for local Czech, Slovak, and Ukrainian facts, paired with a "mini master thesis" paper on when retrieval helps or fails in multilingual RAG.',
+    image_src: "./images/multilingual-regional-qa-rag-ai.jpg",
+    image_alt: "Multilingual-regional QA RAG AI",
+    github: "https://github.com/YounesBB/multilingual-regional-qa-rag-ai",
+  },
+  {
     title: "Kassalapp RAG Assistant",
     description: 'AI-powered Norwegian grocery shopping assistant using RAG (Retrieval-Augmented Generation) with Pinecone Cloud, Groq (Llama 3.3), and the <a href="https://kassal.app/api/" target="_blank" style="text-decoration:none;">Kassalapp API</a>. Combines static knowledge with real-time market data for intelligent shopping assistance.',
     image_src: "./images/kassalapp_rag_chat_interface.JPG",
